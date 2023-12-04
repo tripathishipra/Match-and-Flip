@@ -7,18 +7,18 @@
 
 .grid {
   display: center;
+  display:block;
   flex-wrap: wrap;
-  width: 400px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   margin: auto;
-  
+
 }
-.container{
-background-color: aquamarine;
-  position: absolute;
-  margin: auto;
-  width: 400px;
-}
+
+
+
+
+
 
 
 
