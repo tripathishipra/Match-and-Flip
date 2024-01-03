@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   //flip your card
-  function flipCard() {
+  function flipCard() { 
     let cardId = this.getAttribute('data-id')
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenId.push(cardId)
@@ -113,5 +113,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  
+
   createBoard()
+
+
+
+  
 })
